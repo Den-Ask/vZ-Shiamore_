@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <meta charset="unicode">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/tdm.css') }}" id="oui">
+        <title>Tableau</title>
+    </head>
+    <body>
+        <h1>Tableau des matières</h1>
+        <table>
+            <tr>
+                <th>Chapitre</th>
+                <th>Sujet</th>
+            </tr>
+            <tr>
+                <td>Introduction</td>
+                <td class="td" onclick="window.location.href='/int'">Introduction</td>
+            </tr>
+            <tr>
+                <td>Écriture</td>
+                <td class="td" onclick="window.location.href='/let'">Lettres</td>
+            </tr>
+            <tr>
+                <td>Dictionnaire</td>
+                <td class="td" onclick="window.location.href='/ddm'">Dictionnaire des mots</td>
+            </tr>
+            <tr>
+                <td>Dictionnaire</td>
+                <td class="td" onclick="window.location.href='/ddv'">Dictionnaire des verbes</td>
+            </tr>
+            <tr>
+                <td>Conjugaison</td>
+                <td class="td" onclick="window.location.href='/pps'">Pronoms personnels sujet</td>
+            </tr>
+            <tr>
+                <td>Conjugaison</td>
+                <td class="td" onclick="window.location.href='/itc'">Indicateurs de temps de conjugaison</td>
+            </tr>
+            <tr>
+                <td>Conjugaison</td>
+                <td class="td" onclick="window.location.href='/tdc_0.3.2'">Tableau de conjugaison</td>
+            </tr>
+            <tr>
+                <td>Explications</td>
+                <td class="td" onclick="window.location.href='/def'">Definitions</td>
+            </tr>
+            <tr>
+                <td>Explications</td>
+                <td class="td" onclick="window.location.href='/lpg'">Points gramaticaux</td>
+            </tr>
+        </table>
+        <button class="fixed-button buttonA" onclick="change()">
+            🌚
+        </button>
+        <script src="{{ url_for('static', filename='js/themes.js') }}"></script>
+    </body>
+</html>
