@@ -1,0 +1,96 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    background-color: #0f0;
+    color: black;
+}
+.sub-header {
+    text-align: center;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    border: 3px solid grey;
+    background-color: #f00;
+}
+.fixed-button {
+    position: fixed; /* Fixe le bouton à un endroit spécifique */
+    padding: 10px 20px;
+    background-color: #666; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+    /*border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    /*cursor: pointer; /* Curseur de la souris */
+    font-size: 16px; /* Taille de la police */
+    /*width height: 100px 20px;*/
+}
+
+.fixed-button:hover {
+    background-color: #444; /* Couleur de fond lors du survol */
+    color: white;
+}
+
+/* Position spécifique pour chaque bouton */
+.button-1 {
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+}
+.button-2 {
+    bottom: 20px;
+    right: 100px;
+    width: 75px;
+}
+.button-3 {
+    bottom: 20px;
+    right: 180px;
+    width: 75px;
+}
+.button-4 {
+    bottom: 20px;
+    right: 260px;
+    width: 75px;
+}
+.button-5 {
+    bottom: 20px;
+    right: 340px;
+    width: 75px;
+}
+.button-6 {
+    bottom: 20px;
+    right: 420px;
+    width: 75px;
+}
+.button-7 {
+    bottom: 20px;
+    right: 600px;
+    width: 75px;
+}
+.buttonA {
+    bottom: 20px;
+    left: 20px;
+    width: 20px;
+}
+.al {
+    border: 1px dashed black;
+    text-align: center;
+    padding: 8px;
+    background-color: grey;
+}
+body {
+  background-color: white;
+  color: black;
+  cursor: default;
+}
+div {
+    height: 80px;
+}
+h2 {
+    border: 3px solid grey;
+    background-color: #ff0;
+}
